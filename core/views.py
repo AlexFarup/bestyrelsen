@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-def render_front_page(request):
+def index(request):
 
-    return render(request, 'frontpage.html')
+    return render(request, 'index.html')
