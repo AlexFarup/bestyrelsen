@@ -1,4 +1,9 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
-<h1>Home</h1>
+<h1 class="text-center"><b>Bestyrelsen</b></h1>
+<p class="text-center">Ansvarlig for østjyskmesterskab</p>
+<div class="text-center">
+    <img src="{% static 'images/forside.jpg' %}" class="rounded member-images" alt="Steen">
+</div>
 {% endblock content %}
