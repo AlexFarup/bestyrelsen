@@ -16,3 +16,11 @@ def events(request):
 def leaderboard(request):
 
     return render(request, './content/leaderboard.html')
+
+def login(request):
+
+    return render(request, './login/login.html')
+
+def register(request):
+
+    return render(request, './login/register.html')
