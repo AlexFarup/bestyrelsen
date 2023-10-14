@@ -1,4 +1,12 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
 <h1>Events</h1>
+
+<div class="col-12 d-flex justify-content-center">
+    <div class="col-3 ">
+        <video class="loop" width="500px" height="500px" controls="controls">
+        <source src="{% static 'images/Video.mov' %}" type="video/mp4" />
+    </div>
+</div>
 {% endblock content %}
